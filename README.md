@@ -1,2 +1,2 @@
 # slimass
-hack
+slimass
