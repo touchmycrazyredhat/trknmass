@@ -5,7 +5,7 @@ def param_check():
 	try:
 		a = sys.argv[1]
 	except IndexError:
-		print("Usage python2 slim.py file.txt")
+		print("Usage python2 trknmass.py trknx.txt")
 		os.sys.exit()
 
 def file_check():
@@ -20,7 +20,7 @@ def about():
 	print('  \033[1;31m  / _ \ ')
 	print('  \_\(_)/_/')
 	print('   _//"\\\_')
-	print('    /   \  \033[1;37mSliMass..\n')
+	print('    /   \  \033[1;37mTrknMass..\n')
 
 
 if __name__ == "__main__":
